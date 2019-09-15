@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:textColor="#000"
+        android:text="Name"
+
+
+        android:textSize="30sp"
+
+        />
+    <TextView
+        android:id="@+id/Class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:text="Class"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:layout_marginBottom="5sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Dateofbirth"
+        android:layout_below="@id/Class"
+        android:text="Date of birth"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Gender"
+        android:layout_below="@+id/Dateofbirth"
+        android:text="Gender"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_below="@id/Gender"
+        android:text="email"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:layout_below="@id/email"
+        android:text="pass"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_marginBottom="20sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile"
+        android:layout_below="@id/pass"
+        android:layout_marginTop="21dp"
+        android:text="Update profile"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="21dp"
+        android:text="Update password"
+        android:textSize="20sp" />
+
+
+
+
+
+</RelativeLayout>
